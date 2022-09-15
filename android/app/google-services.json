@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "413930215700",
+    "project_id": "meetup-fde43",
+    "storage_bucket": "meetup-fde43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413930215700:android:270168f035e7fc7ad94a01",
+        "android_client_info": {
+          "package_name": "com.example.meetup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413930215700-62g7rtsssp12kk9nutrlgvpf06loceta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJOvTiSbGu7jFLgmWjecHJDAPMs42CPiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413930215700-62g7rtsssp12kk9nutrlgvpf06loceta.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "413930215700-ijp1s6mko9b89q1dibh8sle5bqhmhujr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.meetup"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
