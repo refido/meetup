@@ -26,6 +26,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Firebase Meetup',
       theme: ThemeData(
         buttonTheme: Theme.of(context).buttonTheme.copyWith(
@@ -356,7 +357,8 @@ class GuestBookMessage {
 enum Attending { yes, no, unknown }
 
 class YesNoSelection extends StatelessWidget {
-  const YesNoSelection({super.key, required this.state, required this.onSelection});
+  const YesNoSelection(
+      {super.key, required this.state, required this.onSelection});
   final Attending state;
   final void Function(Attending selection) onSelection;
 
